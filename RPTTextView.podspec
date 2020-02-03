@@ -9,7 +9,12 @@
 Pod::Spec.new do |s|
   s.name             = 'RPTTextView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RPTTextView.'
+  s.summary          = 'RPTTextView subclasses UITextView to add some additional features to support developers with some necessary extension.'
+
+  # set the swift value
+  # s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
+  s.swift_version = '5.0'
+
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +23,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+RPTTextView subclasses UITextView to add some additional features to support developers with some necessary extension. Lets list all the things that take care of here:
+- Charactor limit
+- Set Placeholder and limit
+                        DESC
 
   s.homepage         = 'https://github.com/rptwsthi/RPTTextView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'rptwsthi' => 'arpit@technologies33.com' }
+  s.author           = { 'Arpit' => 'awasthi.arp@gmail.com' }
   s.source           = { :git => 'https://github.com/rptwsthi/RPTTextView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/rptwsthi'
 
   s.ios.deployment_target = '8.0'
 

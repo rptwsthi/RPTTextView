@@ -1,0 +1,6 @@
+framework module Pods_RPTTextView_Example {
+  umbrella header "Pods-RPTTextView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
