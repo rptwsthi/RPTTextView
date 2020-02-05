@@ -22,7 +22,7 @@ pod 'RPTTextView'
 
 ## Author
 
-rptwsthi, arpit@technologies33.com
+rptwsthi, awasthi.arp@gmail.com
 
 ## License
 
