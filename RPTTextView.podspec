@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RPTTextView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'RPTTextView subclasses UITextView to add some additional features to support developers with some necessary extension.'
 
   # set the swift value
