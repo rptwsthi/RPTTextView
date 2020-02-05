@@ -32,7 +32,7 @@ RPTTextView subclasses UITextView to add some additional features to support dev
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Arpit' => 'awasthi.arp@gmail.com' }
-  s.source           = { :git => 'https://github.com/rptwsthi/RPTTextView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/rptwsthi/RPTTextView.git', :branch => "master", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/rptwsthi'
 
   s.ios.deployment_target = '8.0'
