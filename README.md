@@ -5,9 +5,23 @@
 [![License](https://img.shields.io/cocoapods/l/RPTTextView.svg?style=flat)](https://cocoapods.org/pods/RPTTextView)
 [![Platform](https://img.shields.io/cocoapods/p/RPTTextView.svg?style=flat)](https://cocoapods.org/pods/RPTTextView)
 
+## Why?
+RPTTextView subclasses UITextView to add some additional features to support developers with some necessary extensions. Right now it takes care of
+  - Charactor limit
+  - Set Placeholder
+  
+  ![In action](https://github.com/rptwsthi/RPTTextView/blob/master/Example/RPTTextView/PlaceHolderTextView.gif)
+  
+Note: We'll keep adding more features. You are welcome request or push your's.
+
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+ - Add a UITextView in story board
+ - Change it's class to RPTTextView
+ - Set required placeholder and limit
+ - You can also choose your own plcaholder color
+ 
+ ![How to use](https://github.com/rptwsthi/RPTTextView/blob/master/Example/RPTTextView/HowToUse.gif)
 
 ## Requirements
 
