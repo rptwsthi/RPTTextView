@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 RPTTextView subclasses UITextView to add some additional features to support developers with some necessary extension. Lets list all the things that take care of here:
 - Charactor limit
-- Set Placeholder and limit
+- Set Placeholder
                         DESC
 
   s.homepage         = 'https://github.com/rptwsthi/RPTTextView'

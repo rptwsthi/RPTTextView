@@ -16,19 +16,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <textView key="tableHeaderView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" textAlignment="natural" id="1mf-zQ-Qdw" customClass="RPTTextView" customModule="RPTTextView">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="627"/>
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="198"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             <userDefinedRuntimeAttributes>
-                                <userDefinedRuntimeAttribute type="string" keyPath="placeHolder" value="hey man i am placeholder"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeHolder" value="Place holder"/>
                                 <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
-                                    <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="value" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </userDefinedRuntimeAttribute>
                                 <userDefinedRuntimeAttribute type="number" keyPath="characotrLimit">
-                                    <integer key="value" value="200"/>
+                                    <integer key="value" value="100"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
                         </textView>
@@ -36,7 +36,7 @@
                             <tableViewSection id="ArX-Ux-RRg">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="XmS-7F-l7c">
-                                        <rect key="frame" x="0.0" y="655" width="375" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="226" width="375" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XmS-7F-l7c" id="4yt-oJ-D76">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -44,7 +44,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Rb2-yz-f2q">
-                                        <rect key="frame" x="0.0" y="698.5" width="375" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="269.5" width="375" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Rb2-yz-f2q" id="kQf-ph-nMg">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -52,7 +52,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="tcV-Dm-CnZ">
-                                        <rect key="frame" x="0.0" y="742" width="375" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="313" width="375" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tcV-Dm-CnZ" id="Cgp-Ug-7jn">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -70,7 +70,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v8H-ov-Dt6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="159" y="115"/>
+            <point key="canvasLocation" x="157.59999999999999" y="114.69265367316342"/>
         </scene>
     </scenes>
 </document>

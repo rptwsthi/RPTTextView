@@ -13,6 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		938D77EA23EB23D200EFD9D7 /* HowToUse.gif in Resources */ = {isa = PBXBuildFile; fileRef = 938D77E823EB23D100EFD9D7 /* HowToUse.gif */; };
+		938D77EB23EB23D200EFD9D7 /* PlaceHolderTextView.gif in Resources */ = {isa = PBXBuildFile; fileRef = 938D77E923EB23D200EFD9D7 /* PlaceHolderTextView.gif */; };
 		C3357500265CB9AB6CEF6D9A /* Pods_RPTTextView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864EB2A50477210D12D92A63 /* Pods_RPTTextView_Example.framework */; };
 		F591615CEAD121A5667A6280 /* Pods_RPTTextView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D386E06E4EF4B3691A2A858C /* Pods_RPTTextView_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -44,6 +46,8 @@
 		6B9803530FB544CD7E9A321F /* Pods-RPTTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPTTextView_Example.release.xcconfig"; path = "Target Support Files/Pods-RPTTextView_Example/Pods-RPTTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8077CD87CCAB0CB747273884 /* Pods-RPTTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPTTextView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RPTTextView_Tests/Pods-RPTTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		864EB2A50477210D12D92A63 /* Pods_RPTTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RPTTextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		938D77E823EB23D100EFD9D7 /* HowToUse.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HowToUse.gif; sourceTree = "<group>"; };
+		938D77E923EB23D200EFD9D7 /* PlaceHolderTextView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PlaceHolderTextView.gif; sourceTree = "<group>"; };
 		B85B204B1DA94902635669B0 /* Pods-RPTTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPTTextView_Example.debug.xcconfig"; path = "Target Support Files/Pods-RPTTextView_Example/Pods-RPTTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D386E06E4EF4B3691A2A858C /* Pods_RPTTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RPTTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F43D8C9A9CF839E19FEC83 /* Pods-RPTTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPTTextView_Tests.release.xcconfig"; path = "Target Support Files/Pods-RPTTextView_Tests/Pods-RPTTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				938D77E823EB23D100EFD9D7 /* HowToUse.gif */,
+				938D77E923EB23D200EFD9D7 /* PlaceHolderTextView.gif */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -249,6 +255,8 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				938D77EA23EB23D200EFD9D7 /* HowToUse.gif in Resources */,
+				938D77EB23EB23D200EFD9D7 /* PlaceHolderTextView.gif in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
