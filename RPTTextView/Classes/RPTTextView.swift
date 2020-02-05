@@ -8,7 +8,6 @@
 
 import UIKit
 
-//..
 class RPTTextView : UITextView, UITextViewDelegate {
     private var localTextColor : UIColor!
     required init?(coder: NSCoder) {
@@ -48,5 +47,13 @@ class RPTTextView : UITextView, UITextViewDelegate {
             textView.text = ""
             textView.textColor = localTextColor
         }
+    }
+    
+    func textViewDidEndEditing(_ textView: UITextView) {
+        if textView.text.count == 0 {
+            textView.text = placeHolder
+            textView.textColor = placeHolderColor
+        }
+
     }
 }
