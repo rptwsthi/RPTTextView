@@ -18,7 +18,7 @@ open class RPTTextView : UITextView, UITextViewDelegate {
     }
     
     @IBInspectable var characotrLimit : Int = 0
-    @IBInspectable var placeHolder : String? {
+    @IBInspectable open var placeHolder : String? {
         didSet {
             if let t = self.text, t.count == 0 {
                 self.text = placeHolder
@@ -26,7 +26,7 @@ open class RPTTextView : UITextView, UITextViewDelegate {
         }
     }
     
-    @IBInspectable var placeHolderColor : UIColor? = .lightGray  {
+    @IBInspectable open var placeHolderColor : UIColor? = .lightGray  {
         didSet {
             self.textColor = placeHolderColor
         }
